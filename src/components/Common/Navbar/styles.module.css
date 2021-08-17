@@ -1,0 +1,14 @@
+.NavbarMain {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 7vh;
+  min-height: 50px;
+}
+.NavItemIndiv {
+  width: 33.33%;
+  height: 100%;
+  font-size: 18px !important;
+  font-weight: 500 !important;
+  color: rgb(56, 82, 212) !important;
+}
