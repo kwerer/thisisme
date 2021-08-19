@@ -2,4 +2,38 @@
   padding: 0 !important;
 }
 .MainGridRow {
+  background-color: rgb(25, 25, 112);
+  box-shadow: 0 0 10px rgb(25, 25, 112);
+  padding-bottom: 0 !important;
+}
+.PlayerParentRow {
+  padding: 0 !important;
+  height: 93vh !important;
+}
+.PlayerParentCol {
+  height: 93vh;
+  width: 100vw;
+}
+.AboutMeParentRow {
+  padding: 0 !important;
+}
+.AboutMeParentCol {
+  padding: 2% 5% !important;
+}
+.AboutMeHeader {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 22px !important;
+}
+.AboutMeTopRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 15px 0;
+}
+.AboutMeBottomRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 45px 0;
 }

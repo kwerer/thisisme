@@ -10,5 +10,11 @@
   height: 100%;
   font-size: 18px !important;
   font-weight: 500 !important;
-  color: rgb(56, 82, 212) !important;
+  color: white !important;
+  white-space: nowrap !important;
+}
+@media screen and (max-width: 900px) {
+  .NavbarMain {
+    display: none;
+  }
 }
