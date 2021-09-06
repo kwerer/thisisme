@@ -13,6 +13,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  height: 50px;
 }
 .NavItemIndiv {
   width: fit-content;
@@ -41,11 +42,14 @@
   height: 100%;
   width: 100vw;
 }
+
 .DropdownButton {
   height: 100%;
+  width: 100vw;
 }
 .DropdownMenu {
-  width: 100%;
+  width: 100vw;
+  background-color: #70e0b2 !important;
 }
 .DropdownItem {
   display: flex;
@@ -54,4 +58,6 @@
 }
 .DropdownItemButton {
   width: 100%;
+  color: white !important;
+  font-size: 22px !important;
 }
