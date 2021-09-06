@@ -1,0 +1,29 @@
+.ExperienceMain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+.ExperienceBodyMain {
+  width: 88%;
+}
+.FirstJobExperience {
+  padding: 2% 5%;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+}
+.FirstJobPictureDiv {
+  align-self: center;
+}
+.FirstJobPicture {
+  width: 200px;
+  height: fit-content;
+}
+.SecondJobExperience {
+  width: 100%;
+  height: 200px;
+  background-color: chocolate;
+}

@@ -1,12 +1,21 @@
 .NavbarMain {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 50px;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  width: 100%;
+  background-color: seagreen;
+}
+.NavbarSecondary {
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
-  height: 7vh;
-  min-height: 50px;
 }
 .NavItemIndiv {
-  width: 33.33%;
+  width: fit-content;
   height: 100%;
   font-size: 18px !important;
   font-weight: 500 !important;
@@ -14,7 +23,35 @@
   white-space: nowrap !important;
 }
 @media screen and (max-width: 900px) {
-  .NavbarMain {
+  .NavbarSecondary {
     display: none;
   }
+}
+@media screen and (min-width: 900px) {
+  .NavbarSecondarySmallScreen {
+    display: none;
+  }
+}
+
+/* small screen */
+.NavbarSecondarySmallScreen {
+  height: 50px;
+}
+.NavbarDropdownList {
+  height: 100%;
+  width: 100vw;
+}
+.DropdownButton {
+  height: 100%;
+}
+.DropdownMenu {
+  width: 100%;
+}
+.DropdownItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.DropdownItemButton {
+  width: 100%;
 }

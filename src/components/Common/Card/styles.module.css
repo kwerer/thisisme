@@ -1,3 +1,18 @@
 .CardComponent {
   margin: 0 !important;
 }
+.AboutMeHeader {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 22px !important;
+}
+.AboutMeTopRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 5% 0;
+}
+
+.IndivCardPage {
+  height: 100% !important;
+}

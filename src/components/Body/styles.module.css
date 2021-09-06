@@ -1,39 +1,42 @@
 .MainGrid {
   padding: 0 !important;
+  margin: 0 !important;
 }
-.MainGridRow {
-  background-color: rgb(25, 25, 112);
-  box-shadow: 0 0 10px rgb(25, 25, 112);
-  padding-bottom: 0 !important;
+.Navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100vw;
+  height: 50px;
 }
+
 .PlayerParentRow {
   padding: 0 !important;
-  height: 93vh !important;
+  height: 100vh !important;
+  margin-top: 50px !important;
 }
 .PlayerParentCol {
   height: 93vh;
   width: 100vw;
 }
+.ForewordParentRow {
+  padding: 0 !important;
+}
+.ForewordParentCol {
+  padding: 2% 5% !important;
+  height: 100vh;
+}
 .AboutMeParentRow {
   padding: 0 !important;
 }
 .AboutMeParentCol {
+  padding-top: 2% !important;
+  height: 100vh;
+}
+.ExperiencesParentRow {
+  background-color: beige;
+}
+.ExperiencesParentCol {
   padding: 2% 5% !important;
-}
-.AboutMeHeader {
-  text-align: center;
-  text-decoration: underline;
-  font-size: 22px !important;
-}
-.AboutMeTopRow {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin: 15px 0;
-}
-.AboutMeBottomRow {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin: 45px 0;
+  height: 100vh;
 }
