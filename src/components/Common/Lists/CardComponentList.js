@@ -3,7 +3,7 @@ import BadmintonHeaderPhoto from "../Images/BadmintonPhotoDump1.jpg";
 export const CardComponentList = [
   {
     ImageURL: BadmintonHeaderPhoto,
-    name: "Badminton & Fitness",
+    name: "Hobbies",
     description:
       "My Personal Badminton and Fitness and the many many rewards, joys and sorrows that came with it.",
   },
@@ -11,7 +11,7 @@ export const CardComponentList = [
     ImageURL: BadmintonHeaderPhoto,
     name: "Work(!)",
     description:
-      "Some of the work experience I've had, some were great, some not so great. But as always, a learning experience that I'm thankful for.",
+      "Some of the work experience I've had, some were great, some not so great. But always a learning experience that I'm thankful for.",
   },
   {
     ImageURL: BadmintonHeaderPhoto,

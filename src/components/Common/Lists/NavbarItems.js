@@ -3,5 +3,4 @@ export const NavbarItems = [
   { title: "Foreword" },
   { title: "Experiences" },
   { title: "About Me" },
-  { title: "Contact" },
 ];

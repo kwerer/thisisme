@@ -71,16 +71,6 @@ function Landing() {
           />
         </Grid.Column>
       </Grid.Row>
-      <Grid.Row
-        className={styles.ForewordParentRow}
-        id="Contact"
-      >
-        <Grid.Column
-          className={styles.ForewordParentCol}
-        >
-          Contact
-        </Grid.Column>
-      </Grid.Row>
     </Grid>
   );
 }
