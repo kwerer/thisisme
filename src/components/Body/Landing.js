@@ -2,17 +2,11 @@ import React, { useState } from "react";
 import {
   Button,
   Grid,
-  Header,
+  Divider,
   Icon,
 } from "semantic-ui-react";
 import Navbar from "../Common/Navbar/Navbar";
 import styles from "./styles.module.css";
-import ReactPlayerComponent from "../Common/ReactPlayer/ReactPlayerComponent";
-import CardComponent from "../Common/Card/CardComponents/CardComponent";
-import { CardComponentList } from "../Common/Lists/CardComponentList";
-import Foreword from "../Common/Foreword/Foreword";
-import IndividualCardPage from "../Common/Card/CardComponents/IndividualCardPage";
-import MainCardComponent from "../Common/Card/MainCardComponent";
 import Experiences from "../Common/Experiences/Experiences";
 import MainPicture from "../Common/MainPicture/MainPicture";
 
@@ -27,7 +21,7 @@ function Landing() {
       <Navbar />
       <Grid.Row
         className={styles.PlayerParentRow}
-        id="Home"
+        id="About Me"
       >
         <Grid.Column
           className={styles.PlayerParentCol}
@@ -35,16 +29,7 @@ function Landing() {
           <MainPicture />
         </Grid.Column>
       </Grid.Row>
-      <Grid.Row
-        className={styles.ForewordParentRow}
-        id="Foreword"
-      >
-        <Grid.Column
-          className={styles.ForewordParentCol}
-        >
-          <Foreword />
-        </Grid.Column>
-      </Grid.Row>
+      <Divider />
       <Grid.Row
         className={styles.ExperiencesParentRow}
         id="Experiences"
@@ -53,23 +38,6 @@ function Landing() {
           className={styles.ExperiencesParentCol}
         >
           <Experiences />
-        </Grid.Column>
-      </Grid.Row>
-      <Grid.Row
-        className={styles.AboutMeParentRow}
-        id="About Me"
-      >
-        <Grid.Column
-          className={styles.AboutMeParentCol}
-        >
-          <MainCardComponent
-            aboutMeRenderComponent={
-              aboutMeRenderComponent
-            }
-            setAboutMeRenderComponent={
-              setAboutMeRenderComponent
-            }
-          />
         </Grid.Column>
       </Grid.Row>
     </Grid>

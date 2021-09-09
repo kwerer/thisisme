@@ -12,7 +12,7 @@
 
 .PlayerParentRow {
   padding: 0 !important;
-  height: 100vh !important;
+  height: calc(100vh-50px) !important;
   margin-top: 50px !important;
 }
 .PlayerParentCol {
@@ -35,7 +35,7 @@
   height: 100vh;
 }
 .ExperiencesParentRow {
-  background-color: beige;
+  background-color: #fffde4;
 }
 .ExperiencesParentCol {
   padding: 2% 5% !important;

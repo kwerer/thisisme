@@ -4,11 +4,11 @@ import {
   Button,
   Icon,
 } from "semantic-ui-react";
-import MainPictureMe from "../Images/MainPictureMe.jpg";
+import MainPictureMe from "../Images/MainPictureMeWOBackground.png";
+import FormalPictureMe from "../Images/FormalPictureMe.jpg";
 import styles from "./styles.module.css";
 import { hiimjoseph } from "../Lists/Hiimjoseph";
 function MainPicture() {
-  const [isFormal, setIsFormal] = useState(true);
   return (
     <div className={styles.MainDashboard}>
       <div className={styles.PictureDiv}>
@@ -22,30 +22,17 @@ function MainPicture() {
           <div
             className={styles.SubDashboardTitle}
           >
-            Hi I'm Joseph.
+            Hi I'm Joseph!
           </div>
           <div
             className={styles.SubDashboardText}
           >
             <ul>
-              <li>
-                {hiimjoseph.map((fact) => {
-                  return fact.fact;
-                })}
-              </li>
+              {hiimjoseph.map((fact) => {
+                return <li>{fact.fact}</li>;
+              })}
             </ul>
           </div>
-          <div></div>
-        </div>
-        <div
-          className={styles.SubDashboardButton}
-        >
-          <Button>
-            {isFormal
-              ? "Other Side Of Me!"
-              : "About Me!"}
-            <Icon name="arrow right" />
-          </Button>
         </div>
       </div>
     </div>

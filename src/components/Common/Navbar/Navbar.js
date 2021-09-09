@@ -65,61 +65,7 @@ function Navbar() {
   });
   return (
     <div className={styles.NavbarMain}>
-      {/* large screen */}
       <div className={styles.NavbarSecondary}>
-        <div className={styles.NavbarHolder}>
-          <span>{null}</span>
-        </div>
-        <div className={styles.NavbarHolder}>
-          {options.map((item) => {
-            return (
-              <Link
-                to={item.title}
-                spy={true}
-                smooth={true}
-                duration={700}
-                offset={-50}
-              >
-                <Button
-                  className={styles.NavItemIndiv}
-                >
-                  {item.title}
-                </Button>
-              </Link>
-            );
-          })}
-        </div>
-        <div className={styles.AvatarDiv}>
-          <a href="https://www.linkedin.com/in/joseph-lai-466891204/">
-            <Icon
-              name="linkedin"
-              size="big"
-              color="blue"
-            />
-          </a>
-          <div
-            className={styles.TelegramContainer}
-          >
-            <Icon
-              name="telegram"
-              size="big"
-              color="blue"
-            />
-            @josephlailai
-          </div>
-
-          <Image
-            src={LDProfilePicture}
-            className={styles.ProfilePicture}
-          />
-        </div>
-      </div>
-      {/* small screen */}
-      <div
-        className={
-          styles.NavbarSecondarySmallScreen
-        }
-      >
         <div className={styles.HamburgerDiv}>
           <Dropdown
             id="navbarDropdown"

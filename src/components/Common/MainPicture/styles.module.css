@@ -1,25 +1,29 @@
 .MainDashboard {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  background-color: #fffde4;
 }
 .SubDashboard {
   padding: 3%;
-  width: 78%;
+  width: 60%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: bisque;
 }
 .SubDashboardTitle {
   font-size: 22px;
   line-height: 26px;
 }
+.SubDashboardText {
+  font-size: 16px;
+  line-height: 22px;
+}
 .SubDashboardButton {
   align-self: flex-end;
+  width: 35%;
 }
 .PictureDiv {
-  width: 25%;
+  width: 30%;
 }
 .Picture {
   height: 93vh;
