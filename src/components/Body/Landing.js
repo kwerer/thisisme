@@ -14,6 +14,7 @@ import Foreword from "../Common/Foreword/Foreword";
 import IndividualCardPage from "../Common/Card/CardComponents/IndividualCardPage";
 import MainCardComponent from "../Common/Card/MainCardComponent";
 import Experiences from "../Common/Experiences/Experiences";
+import MainPicture from "../Common/MainPicture/MainPicture";
 
 function Landing() {
   const [
@@ -31,7 +32,7 @@ function Landing() {
         <Grid.Column
           className={styles.PlayerParentCol}
         >
-          <ReactPlayerComponent />
+          <MainPicture />
         </Grid.Column>
       </Grid.Row>
       <Grid.Row

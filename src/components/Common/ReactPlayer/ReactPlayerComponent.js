@@ -1,6 +1,6 @@
 import React from "react";
 import ReactPlayer from "react-player";
-import Video from "../Images/dd4f9690-fdf3-444b-a37e-78857ca9ca28.mp4";
+import Video from "../Images/BadmintonPhotoDump1.jpg";
 import styles from "./styles.module.css";
 
 function ReactPlayerComponent() {
@@ -15,7 +15,9 @@ function ReactPlayerComponent() {
         width="100%"
         height="100%"
       />
-      <div className={styles.ReactPlayerOverlay}>hey there sir</div>
+      <div className={styles.ReactPlayerOverlay}>
+        hey there sir
+      </div>
     </>
   );
 }

@@ -18,6 +18,7 @@
 .PlayerParentCol {
   height: 93vh;
   width: 100vw;
+  padding: 0 !important;
 }
 .ForewordParentRow {
   padding: 0 !important;

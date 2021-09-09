@@ -168,6 +168,16 @@ function Navbar() {
             size="big"
             color="blue"
           />
+          <div
+            className={styles.TelegramContainer}
+          >
+            <Icon
+              name="telegram"
+              size="big"
+              color="blue"
+            />
+            @josephlailai
+          </div>
           <Image
             src={LDProfilePicture}
             className={styles.ProfilePicture}
