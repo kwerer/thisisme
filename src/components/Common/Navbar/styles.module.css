@@ -14,7 +14,7 @@
   align-items: center;
   height: 50px;
   width: 100%;
-  background-color: bisque;
+  background-color: #f7d9bf;
 }
 .NavbarDropdownList {
   height: 100%;
@@ -47,6 +47,7 @@
   justify-content: flex-end;
   height: 100%;
   width: 33.3333%;
+  z-index: 10;
 }
 .ProfilePicture {
   height: 80%;
@@ -55,11 +56,13 @@
   background-color: white !important;
 }
 .TelegramContainer {
-  border: 2px blue solid;
+  border: 2px black solid;
   background-color: white;
   padding: 4px 10px;
   margin: 0px 10px;
   border-radius: 10px;
   width: fit-content;
   white-space: nowrap;
+
+  z-index: 10;
 }

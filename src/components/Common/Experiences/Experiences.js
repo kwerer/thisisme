@@ -12,6 +12,9 @@ import { TimelineProjects } from "../Lists/TimelineProjects";
 function Experiences() {
   return (
     <div className={styles.ExperienceMain}>
+      <div className={styles.ExperienceMainTitle}>
+        My Journey
+      </div>
       <VerticalTimeline>
         {TimelineExperiences.map((item) => {
           return (

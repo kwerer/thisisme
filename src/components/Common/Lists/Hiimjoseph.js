@@ -7,4 +7,14 @@ export const hiimjoseph = [
   {
     fact: "Keen on pursing a career in Software Engineering",
   },
+  {
+    fact: (
+      <span>
+        Here is my{" "}
+        <a href="https://drive.google.com/file/d/1F5TAlpi99BC4KrM-L4wDbAVlQbj37Lva/view?usp=sharing">
+          resume
+        </a>
+      </span>
+    ),
+  },
 ];

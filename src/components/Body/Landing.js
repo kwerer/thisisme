@@ -11,11 +11,6 @@ import Experiences from "../Common/Experiences/Experiences";
 import MainPicture from "../Common/MainPicture/MainPicture";
 
 function Landing() {
-  const [
-    aboutMeRenderComponent,
-    setAboutMeRenderComponent,
-  ] = useState("Start");
-
   return (
     <Grid className={styles.MainGrid}>
       <Navbar />

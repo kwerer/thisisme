@@ -3,6 +3,7 @@ import {
   Image,
   Button,
   Icon,
+  Divider,
 } from "semantic-ui-react";
 import MainPictureMe from "../Images/MainPictureMeWOBackground.png";
 import FormalPictureMe from "../Images/FormalPictureMe.jpg";
@@ -32,6 +33,21 @@ function MainPicture() {
                 return <li>{fact.fact}</li>;
               })}
             </ul>
+            <div className={styles.ScrollDown}>
+              <span
+                className={styles.ScrollDownSpan}
+              >
+                Scroll down to find out more!
+              </span>
+              <div
+                className={styles.ScrollDownIcon}
+              >
+                <Icon
+                  name="angle double down"
+                  size="massive"
+                />
+              </div>
+            </div>
           </div>
         </div>
       </div>

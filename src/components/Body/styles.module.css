@@ -35,9 +35,9 @@
   height: 100vh;
 }
 .ExperiencesParentRow {
-  background-color: #dcdcdc;
+  background-color: bisque;
 }
 .ExperiencesParentCol {
   padding: 2% 5% !important;
-  height: 100vh;
+  height: 100%;
 }

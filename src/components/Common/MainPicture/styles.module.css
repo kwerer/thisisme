@@ -1,7 +1,7 @@
 .MainDashboard {
   display: flex;
   flex-direction: row;
-  background-color: #fffde4;
+  background-color: bisque;
 }
 .SubDashboard {
   padding: 3%;
@@ -17,6 +17,37 @@
 .SubDashboardText {
   font-size: 16px;
   line-height: 22px;
+}
+.ScrollDown {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 200px;
+}
+.ScrollDownSpan {
+  align-self: flex-end;
+}
+.ScrollDownIcon {
+  position: absolute;
+  animation-name: bounce;
+  animation-duration: 0.5s;
+  animation-direction: alternate;
+  animation-timing-function: cubic-bezier(
+    0.95,
+    0.05,
+    0.795,
+    0.035
+  );
+  animation-iteration-count: infinite;
+}
+@keyframes bounce {
+  from {
+    transform: translateY(0) scale(1);
+  }
+  to {
+    transform: translateY(50px) scale(1, 0.7);
+  }
 }
 .SubDashboardButton {
   align-self: flex-end;
