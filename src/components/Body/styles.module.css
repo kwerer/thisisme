@@ -35,9 +35,14 @@
   height: 100vh;
 }
 .ExperiencesParentRow {
-  background-color: bisque;
+  background-color: beige;
 }
 .ExperiencesParentCol {
   padding: 2% 5% !important;
   height: 100%;
+}
+@media only screen and (max-width: 768px) {
+  .PlayerParentCol {
+    height: 100%;
+  }
 }

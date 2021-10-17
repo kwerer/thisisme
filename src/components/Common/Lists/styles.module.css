@@ -1,0 +1,11 @@
+.DateSpan {
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+}
+.ButtonDiv {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

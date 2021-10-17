@@ -24,7 +24,7 @@ function Landing() {
           <MainPicture />
         </Grid.Column>
       </Grid.Row>
-      <Divider />
+
       <Grid.Row
         className={styles.ExperiencesParentRow}
         id="Experiences"

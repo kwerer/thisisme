@@ -26,7 +26,14 @@
 }
 .DropdownMenu {
   width: 100vw;
-  background-color: #70e0b2 !important;
+  background-color: rgba(
+    247,
+    217,
+    180,
+    1
+  ) !important;
+  border-radius: 0px !important;
+  z-index: 0;
 }
 .DropdownItem {
   display: flex;

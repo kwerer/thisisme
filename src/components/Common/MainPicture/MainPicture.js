@@ -1,12 +1,6 @@
-import React, { useState } from "react";
-import {
-  Image,
-  Button,
-  Icon,
-  Divider,
-} from "semantic-ui-react";
+import React from "react";
+import { Image, Icon } from "semantic-ui-react";
 import MainPictureMe from "../Images/MainPictureMeWOBackground.png";
-import FormalPictureMe from "../Images/FormalPictureMe.jpg";
 import styles from "./styles.module.css";
 import { hiimjoseph } from "../Lists/Hiimjoseph";
 function MainPicture() {
